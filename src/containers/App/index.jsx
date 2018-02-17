@@ -1,10 +1,10 @@
 import React from 'react';
-
+import Content from 'containers/Nav';
 import './index.scss';
 
 const App = () => (
   <div className='App'>
-    add new components or HTML here
+    <Nav />
   </div>
 );
 
