@@ -1,0 +1,14 @@
+.nav__list {
+  list-style-type: none;
+
+  &__list-items {
+    display: inline-block;
+    margin: 15px;
+  }
+
+  &__list-links {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+}

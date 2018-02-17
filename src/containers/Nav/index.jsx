@@ -4,16 +4,15 @@ import './index.scss';
 
 
 const Nav = () => (
-  <div className='Nav__container'>
-    <div className='Nav__title'>
-      <h1 className='Nav__title-text'>Box.</h1>
+  <div className='nav__container'>
+    <div className='nav__title-container'>
+      <h1 className='nav__title-text'>Box.</h1>
     </div>
-    <div className='Nav__list'>
+    <div className='nav__list-container'>
       <NavList />
     </div>
-    <div className='Nav__button'></div>
+    <div className='nav__button-container' />
   </div>
-    
 );
 
 export default Nav;
