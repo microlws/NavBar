@@ -1,12 +1,12 @@
 .nav__list {
   list-style-type: none;
 
-  &__list-items {
+  &-items {
     display: inline-block;
     margin: 15px;
   }
 
-  &__list-links {
+  &-links {
     color: #FFFFFF;
     text-decoration: none;
   }
