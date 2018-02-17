@@ -1,9 +1,10 @@
 import React from 'react';
+import NavList from 'components/NavList';
 import './index.scss';
-import NavListItems from 'components/NavList';
+
 
 const Nav = () => (
-  <div className='Nav'>
+  <div className='Nav__container'>
     <div className='Nav__title'>
       <h1 className='Nav__title-text'>Box.</h1>
     </div>

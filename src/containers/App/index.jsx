@@ -1,5 +1,6 @@
 import React from 'react';
-import Content from 'containers/Nav';
+import Nav from 'containers/Nav';
+
 import './index.scss';
 
 const App = () => (
